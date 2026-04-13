@@ -1,0 +1,97 @@
+{
+  "Image1,1,3.db": {
+    "img_no": "1",
+    "defect_count": 1,
+    "pcb_index": "3",
+    "alg": "luyou-baisewenzi-xiban-16-",
+    "positions": [
+      "300:175:1475",
+      "250:100:1050",
+      "275:100:1125",
+      "175:150:975",
+      "150:275:1150"
+    ],
+    "project": "4716063E"
+  },
+  "Image2,1,1.db": {
+    "img_no": "2",
+    "defect_count": 1,
+    "pcb_index": "1",
+    "alg": "luyou-baisewenzi-xiban-16-",
+    "positions": [
+      "200:200:1325",
+      "125:175:925"
+    ],
+    "project": "4716063E"
+  },
+  "Image3,8,1.db": {
+    "img_no": "3",
+    "defect_count": 8,
+    "pcb_index": "1",
+    "alg": "luyou-baisewenzi-xiban-16-",
+    "positions": [
+      "300:550:3825",
+      "250:225:1700",
+      "200:175:1325",
+      "275:225:1850",
+      "225:225:1475",
+      "125:150:875",
+      "150:225:1275",
+      "150:225:1275",
+      "100:125:700"
+    ],
+    "project": "4716063E"
+  },
+  "Image4,2,1.db": {
+    "img_no": "4",
+    "defect_count": 2,
+    "pcb_index": "1",
+    "alg": "luyou-baisewenzi-xiban-16-",
+    "positions": [
+      "100:325:1675",
+      "400:350:3025",
+      "600:725:7575",
+      "175:250:1675"
+    ],
+    "project": "4716063E"
+  },
+  "Image5,2,2.db": {
+    "img_no": "5",
+    "defect_count": 2,
+    "pcb_index": "2",
+    "alg": "luyou-baisewenzi-xiban-16-",
+    "positions": [
+      "275:150:1350",
+      "225:175:1450",
+      "225:200:1325",
+      "300:175:1625"
+    ],
+    "project": "4716063E"
+  },
+  "Image6,2,0.db": {
+    "img_no": "6",
+    "defect_count": 2,
+    "pcb_index": "0",
+    "alg": "luyou-baisewenzi-xiban-16-",
+    "positions": [
+      "525:275:3575",
+      "125:100:700"
+    ],
+    "project": "4716063E"
+  },
+  "Image7,1,4.db": {
+    "img_no": "7",
+    "defect_count": 1,
+    "pcb_index": "4",
+    "alg": "luyou-baisewenzi-xiban-16-",
+    "positions": [
+      "250:375:3100",
+      "200:75:775",
+      "250:100:1025",
+      "350:225:2050",
+      "225:150:1025",
+      "250:200:1225"
+    ],
+    "project": "4716063E"
+  }
+}

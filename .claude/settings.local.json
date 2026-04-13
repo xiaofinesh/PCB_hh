@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(wc -l public/cam/*)",
+      "Bash(powershell -Command \"Get-Content 'd:\\\\projects\\\\pcb_hh\\\\4716063LL\\\\工程cam\\\\板子类型.txt'\")",
+      "Bash(powershell -Command \"Get-Content 'd:\\\\projects\\\\pcb_hh\\\\4716063LL\\\\设备软件做的资料\\\\4716063E.dat' -Encoding UTF8 | Select-Object -First 30\")",
+      "Bash(powershell -Command 'Add-Type -AssemblyName System.IO.Compression.FileSystem; try { $pdf = [System.IO.File]::ReadAllBytes\\('\\\\''d:\\\\projects\\\\pcb_hh\\\\PCB视觉AI质检方案_贺鸿电子.pdf'\\\\''\\); $text = [System.Text.Encoding]::UTF8.GetString\\($pdf\\); $text -split '\\\\''\\\\n'\\\\'' | Where-Object { $_ -match '\\\\''[\\\\u4e00-\\\\u9fff]'\\\\'' } | Select-Object -First 50 } catch { $_.Exception.Message }')",
+      "Bash(python3 -c \"import pdfminer; print\\('ok'\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python3 -c ':*)",
+      "Bash(py --version)",
+      "Bash(py -3 -c \"print\\('ok'\\)\")",
+      "Bash(py -3 -m pip install pdfminer.six -q)",
+      "Bash(py -3 -c ':*)",
+      "Bash(mkdir -p /d/projects/pcb_hh/results)",
+      "Bash(cp -r /d/projects/pcb_hh/4716063LL/4716063扫描结果/annotated /d/projects/pcb_hh/results/)",
+      "Bash(cp /d/projects/pcb_hh/4716063LL/4716063扫描结果/defects_annotated.html /d/projects/pcb_hh/results/)",
+      "Bash(cp /d/projects/pcb_hh/4716063LL/4716063扫描结果/metadata.json /d/projects/pcb_hh/results/)"
+    ]
+  }
+}
